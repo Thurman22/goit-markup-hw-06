@@ -351,7 +351,44 @@ div.par-fourth {
 }
 .final-primary {
     margin-left: 50px;
-    padding-left: 166px;
+    padding-left: 220px;
+}
+.final-secondary { 
+    margin-left: 50px; 
+    padding-left: 190px;
+}
+.final-form {
+    margin-left: 50px;
+    padding-left: 100px;
+    display: flex;   
+}
+
+.final-text {
+    background-color: rgba(0,0,0,0.1);
+    /* box-shadow: inset -3px -3px rgba(0,0,0,0.5); */
+    border-radius: 4px; 
+    border-color: #FFFFFF;
+    fill: #2E2F42;
+    font-weight: 200px;
+    font-size: 20;
+    margin-right: 20px;
+    color: white;
+}
+.final-subs {
+    background-color: #4D5AE5;
+    padding-left: 20px;
+    color: white;
+    border-radius: 4px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    border: none;   
+}
+.final-button {
+    fill: #FFF; 
+    padding-left: 7px;
+    display:inline-block;
+    padding-top: 10px;
+    
 }
 /* footer design end */
 
@@ -362,7 +399,7 @@ div.par-fourth {
 .media-final {
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 .media-icons {
     display: flex;
@@ -518,4 +555,67 @@ div.par-fourth {
     background-color: blue;
     position: relative;
     top: 20px;
+}
+
+/* service label */
+.heading-1 {
+    color:#2E2F42;
+    font-size:16px;
+    /* line-height: 24px; */
+    /* border-radius: 4px; */
+}
+
+.service-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    color:#8E8F99;
+    font-size: 12px;
+    position: relative; 
+}
+.service-input {
+    padding:12px 40px;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+    transition: 250ms; 
+    transition-property: color, border-color, background-color;
+}
+.service-icon {
+    position:absolute;
+    top: 46%;
+    fill:#404BBF;
+    left:10px;
+}
+.text {
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
+    
+}
+/* last button design */
+.last-button {
+    display: inline-block;
+    margin-left: 110px;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 14px; 
+    padding-left: 45px; 
+    padding-right: 45px; 
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: none;
+}
+.private {
+    color: blue;
+    text-decoration: underline;
+    font-size: 12px;;
+    font-weight: 400;;
+}
+.service-1 { 
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 2px;
 }
