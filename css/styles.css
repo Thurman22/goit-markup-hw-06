@@ -5,6 +5,7 @@ body{
     max-width: 1440px;
     top: -1169px;
     left: 370px;
+    margin:0 auto;
 }
 /* root end */
 
@@ -43,32 +44,27 @@ ul.container-primary:hover:focus {
     display: inline-block;
     margin: 20px; 
     padding: 2px;
-    color: #2E2F42;
 }
 .dos {
     display: inline-block;
     margin: 20px; 
     padding: 2px;
-    color: #2E2F42;
 }
 .tres {
     display: inline-block;
     margin-left: 20px;
     margin-right: 350px; 
     padding: 2px;
-    color: #2E2F42;
 }
 .kwatro {
     display: inline-block;   
     margin: 15px; 
     padding: 2px;
-    color: #434455;
 }
 .cinco {
     display: inline-block;
     margin: 15px; 
     padding: 2px;
-    color: #434455;
 }
 /* section */
 
@@ -373,6 +369,8 @@ div.par-fourth {
     font-size: 20;
     margin-right: 20px;
     color: white;
+    padding-top: 2px;
+    padding-left: 20px;
 }
 .final-subs {
     background-color: #4D5AE5;
@@ -555,6 +553,22 @@ div.par-fourth {
     background-color: blue;
     position: relative;
     top: 20px;
+}
+.active {
+    color: #2E2F42;
+}
+.dos-main {
+    color: #2E2F42;
+}
+.tres-main {
+    color: #2E2F42;
+}
+ 
+.kwatro-main { 
+    color: #434455;
+}
+.cinco-main { 
+    color: #434455;
 }
 
 /* service label */
